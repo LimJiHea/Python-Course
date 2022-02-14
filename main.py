@@ -20,4 +20,3 @@ days.reverse()
 print(days)
 
 days = ("Mon","Tue","Wed","Thur","Fri")
-print(days)
