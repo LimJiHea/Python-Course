@@ -35,3 +35,10 @@ print(jihae["name"])
 
 jihae["cool"] = True
 print(jihae)
+
+print(len("lkjejkdjkfjdkjkej"))
+
+age = "18"
+print(type(age))
+n_age = int(age)
+print(type(n_age))
