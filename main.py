@@ -20,4 +20,18 @@ days.reverse()
 print(days)
 
 days = ("Mon","Tue","Wed","Thur","Fri")
-print(len(days))
+print(type(days))
+
+jihae = {
+  "name" : "Jihae",
+  "age": 27,
+  "korean":True,
+  "fav_food" : ["Kimchi","Sunde"]
+}
+
+print(jihae)
+print(jihae["age"])
+print(jihae["name"])
+
+jihae["cool"] = True
+print(jihae)
