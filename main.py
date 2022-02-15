@@ -42,3 +42,19 @@ age = "18"
 print(type(age))
 n_age = int(age)
 print(type(n_age))
+
+def say_hello(who="Hs"):
+  print("hello", who)
+  print("bye")
+
+say_hello("Jihae")
+say_hello()
+
+def plus(a,b):
+  print(a+b)
+
+def minus(a,b=0):
+  print(a-b)
+  
+plus(2,5)
+minus(2)
