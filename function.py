@@ -1,6 +1,5 @@
-def say_hello():
-  print("hello")
-  print("bye")
+def say_hello(name, age):
+ return "Hello name you are age years old"
 
-
-  say_hello()
+hello = say_hello("jihae","12")
+print(hello)

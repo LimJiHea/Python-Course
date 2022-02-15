@@ -50,6 +50,7 @@ def say_hello(who="Hs"):
 say_hello("Jihae")
 say_hello()
 
+
 def plus(a,b):
   print(a+b)
 
@@ -58,3 +59,29 @@ def minus(a,b=0):
   
 plus(2,5)
 minus(2)
+
+def p_plus(a,b):
+  print(a+b)
+
+def r_plus(a,b):
+  return a + b
+  print("ekfkfkffkfk",True)
+
+p_result = p_plus(2,3)
+r_result = r_plus(2,3)
+
+print(p_result,r_result)
+
+
+def pplus(a,b):
+  return a -b
+
+result = pplus(b=30, a=1)
+print(result)
+
+
+def hello(name, age):
+ return f"Hello {name} you are {age} years old"
+
+hello = hello(age = "12",name="jihae")
+print(hello)
