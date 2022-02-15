@@ -85,3 +85,82 @@ def hello(name, age):
 
 hello = hello(age = "12",name="jihae")
 print(hello)
+
+
+
+
+
+def plus(a,b):
+  try:
+    return a+b
+  except:
+    print("오류가 발생했습니다.")
+  
+
+def minus(a,b):
+  try:
+    return a-b
+  except:
+    print("오류가 발생했습니다.")
+
+def times(a,b):
+  try:
+    return a*b
+  except:
+    print("오류가 발생했습니다.")  
+
+def division(a,b):
+  try:
+    return a/b
+  except:
+    print("오류가 발생했습니다.")
+
+def remainder(a,b):
+  try:
+    return a%b
+  except:
+    print("오류가 발생했습니다.")  
+
+def power(a,b):
+  try:
+    return a**b
+  except:
+    print("오류가 발생했습니다.")
+
+def negation(a):
+  try:
+    return -a
+  except:
+    print("오류가 발생했습니다.")
+
+str = "12"
+print(type(str))
+print(type(int(str)))
+
+
+num1, num2 = map(int,input('두개의 숫자를 입력해주세요').split())
+char = input('연산자:')
+print('입력하신 숫자는',num1,'과',num2,'입니다')
+
+
+if char=='+':
+  print(plus(num1, num2))
+
+if char=='-':
+  print(minus(num1,num2))
+
+if char=='/':
+  print(division(num1,num2))
+
+if char=='*':
+  print(times(num1,num2))
+
+if char=='%':
+  print(remainder(num1,num2))
+
+if char=='**':
+  print(power(num1,num2))
+
+if char=='--':
+  print(negation(num1))
+
