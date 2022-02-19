@@ -26,5 +26,7 @@ for page in pages :
   spans.append(page.find("span"))
 
 # -1은 마지막에서부터 시작해서 첫 item을 나타낸다. 
-print(spans[-1])
+# spans[:-1] => 마지막 제외
+# [0:5] => 0~5까지 가져옴 
+spans = spans[:-1]
   
