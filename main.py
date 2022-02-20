@@ -29,4 +29,5 @@ for page in pages :
 # spans[:-1] => 마지막 제외
 # [0:5] => 0~5까지 가져옴 
 spans = spans[:-1]
+# indeed 다시보기 
   
