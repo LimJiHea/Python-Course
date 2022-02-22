@@ -20,7 +20,7 @@ def extract_indeed_pages():
   return max_page
 
 
-
+#각 일자리를 나타냄
 def extract_indeed_jobs(last_pages):
   jobs =[]
   #for page in range(last_pages):
@@ -29,6 +29,13 @@ def extract_indeed_jobs(last_pages):
   results =soup.find_all("a", {"class" : "tapItem"})
   for result in results :
     title = result.find("h2", {"class":"jobTitle"}).find("span",title=True).string
-    print(title)
+    company = result.find("span",{"class":"companyName"})
+    company_anchor = company.find("a")
+    if company_anchor is not None:
+      company = str(company_anchor.string)
+    else:
+      company = str(company.string)
     # title.find("span" ,title=True ) 은 title 이 있는 span 을 찾아라 입니다.
+    company = company.strip()
+    print("제목 :",title,"회사 : ",company)
   return jobs
