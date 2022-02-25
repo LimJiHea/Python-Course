@@ -4,28 +4,28 @@
       {
         "id": "e314a5ac-f56a-431e-81d5-7d18e54e4363",
         "line": 16,
-        "version": 1532,
-        "index": 380
+        "version": 1,
+        "index": 361
       },
       {
         "id": "a253e7b6-f9b0-4e1b-8abc-b1cc20475758",
         "line": 38,
-        "version": 1532,
-        "index": 1149
+        "version": 1,
+        "index": 1082
       }
     ],
     "main.py": [
       {
         "id": "efcfe332-480d-4983-ab06-aebcd0ea4178",
         "line": 1,
-        "version": 5016,
+        "version": 1,
         "index": 0
       },
       {
         "id": "847a064f-cfe9-480e-82d2-c95cd8727ed1",
         "line": 1,
-        "version": 5016,
-        "index": 19
+        "version": 1,
+        "index": 0
       }
     ],
     "main_Code_Challenge.py": [
@@ -40,7 +40,7 @@
       {
         "id": "3e513639-2ad9-41a5-b87b-10b942daa617",
         "line": 5,
-        "version": 232,
+        "version": 1,
         "index": 48
       }
     ]
